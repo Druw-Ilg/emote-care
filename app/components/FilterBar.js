@@ -13,6 +13,8 @@ export default function FilterBar() {
     <div className="flex flex-col sm:flex-row gap-4 p-4 shadow rounded-xl">
       <select
         name="specialization"
+        id="specialization"
+        aria-label="Specialization"
         value={filters.specialization}
         onChange={handleChange}
         className="p-2 rounded border"
@@ -24,6 +26,8 @@ export default function FilterBar() {
       </select>
       <select
         name="location"
+        id="location"
+        aria-label="Location"
         value={filters.location}
         onChange={handleChange}
         className="p-2 rounded border"
@@ -35,6 +39,8 @@ export default function FilterBar() {
       </select>
       <select
         name="availability"
+        id="availability"
+        aria-label="Availability"
         value={filters.availability}
         onChange={handleChange}
         className="p-2 rounded border"
