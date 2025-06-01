@@ -17,7 +17,7 @@ export default function FilterBar() {
         onChange={handleChange}
         className="p-2 rounded border"
       >
-        <option>Specialization</option>
+        <option value="">Specialization</option>
         <option value="Anxiety">Anxiety</option>
         <option value="Depression">Depression</option>
         <option value="Relationships">Relationships</option>
@@ -28,7 +28,7 @@ export default function FilterBar() {
         onChange={handleChange}
         className="p-2 rounded border"
       >
-        <option>Location</option>
+        <option value="">Location</option>
         <option value="New York">New York</option>
         <option value="Los Angeles">Los Angeles</option>
         <option value="Online">Online</option>
@@ -39,10 +39,13 @@ export default function FilterBar() {
         onChange={handleChange}
         className="p-2 rounded border"
       >
-        <option>Availability</option>
-        <option value="Weekdays">Weekdays</option>
-        <option value="Weekends">Weekends</option>
-        <option value="Evenings">Evenings</option>
+        <option value="">Availability</option>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
       </select>
     </div>
   );

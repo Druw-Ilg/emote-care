@@ -5,7 +5,7 @@ const therapists = [
     photo: "/images/maya.jpeg",
     specialization: "Anxiety",
     location: "New York",
-    availability: "Weekdays",
+    availability: ["Monday", "Tuesday", "Thursday"],
     bio: "Dr. Maya Thompson is a licensed clinical psychologist with over 10 years of experience helping individuals manage anxiety, depression, and trauma through cognitive-behavioral techniques. Her empathetic approach empowers clients to find clarity and regain control over their lives.",
   },
   {
@@ -14,7 +14,7 @@ const therapists = [
     photo: "/images/james.jpeg",
     specialization: "Depression",
     location: "Los Angeles",
-    availability: "Weekends",
+    availability: ["Monday", "Wednesday", "Thursday"],
     bio: "James Carter is a licensed therapist based in Los Angeles, specializing in helping individuals navigate depression and life transitions. With a calm and supportive approach, James empowers his clients to find clarity and regain emotional stability.",
   },
   {
@@ -23,7 +23,7 @@ const therapists = [
     photo: "/images/melanie.jpeg",
     specialization: "Relationships",
     location: "Online",
-    availability: "Evenings",
+    availability: ["Tuesday", "Thursday"],
     bio: "Dr. Melanie Patel offers relationship counseling with a modern, compassionate approach. Practicing online, she helps couples and individuals build healthier emotional connections and resolve long-standing conflicts.",
   },
   {
@@ -32,7 +32,7 @@ const therapists = [
     photo: "/images/carlos.jpeg",
     specialization: "Anxiety",
     location: "Los Angeles",
-    availability: "Weekdays",
+    availability: ["Monday", "Tuesday", "Thursday"],
     bio: "Carlos Mendez is a dedicated mental health professional focusing on anxiety and stress management. Based in Los Angeles, Carlos uses practical tools and mindfulness-based strategies to guide clients through life’s challenges.",
   },
   {
@@ -41,7 +41,7 @@ const therapists = [
     photo: "/images/sophia.jpeg",
     specialization: "Depression",
     location: "New York",
-    availability: "Evenings",
+    availability: ["Tuesday", "Thursday", "Friday"],
     bio: "Sophia Nguyen specializes in treating depression among young adults. Located in New York, she combines traditional therapy techniques with cultural sensitivity and a deep understanding of emotional healing",
   },
   {
@@ -50,7 +50,7 @@ const therapists = [
     photo: "/images/malik.jpeg",
     specialization: "Relationships",
     location: "Online",
-    availability: "Weekends",
+    availability: ["Wednesday", "Thursday", "Friday"],
     bio: "Dr. Malik Johnson is a weekend therapist offering remote counseling sessions focused on relationships. His sessions combine empathy, insight, and real-world strategies to help clients build stronger interpersonal bonds.",
   },
 ];
