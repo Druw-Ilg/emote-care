@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <TherapistContext.Provider value={{ filters, setFilters }}>
-      <main className="max-w-7xl mx-auto p-4">
+      <main className="max-w-7xl mx-auto p-4 ">
         <h1 className="text-3xl font-bold mb-4">Find Your Therapist</h1>
         <FilterBar />
         <TherapistList />

@@ -1,6 +1,7 @@
 import { Geist_Mono, Work_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "./components/ui/header";
+import { ThemeProvider } from "./context/ThemeContext";
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -21,10 +22,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${workSans.className} ${geistMono.className} antialiased`}
+        className={`${workSans.className} ${geistMono.className} antialiased bg-white text-black dark:bg-gray-900 dark:text-white`}
       >
-        <Header />
-        {children}
+        <ThemeProvider>
+          <Header />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
