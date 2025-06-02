@@ -25,8 +25,10 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 - Built using React.js with Next.js, Tailwind CSS, Context API
 - Filters use React Context to manage global state
 - Therapist availability dynamically controls calendar date selection
+- Use of loading wireframe "skeletons" as placeholder/fallback and loading spinners to indicate to users that the content is loading
 
 ## Known Issues or Limitations
 
 - Time zone selection not yet supported
 - No real backend: form data is not stored
+- Dark mode theme not functional
