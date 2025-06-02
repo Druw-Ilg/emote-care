@@ -26,6 +26,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 - Filters use React Context to manage global state
 - Therapist availability dynamically controls calendar date selection
 - Use of loading wireframe "skeletons" as placeholder/fallback and loading spinners to indicate to users that the content is loading
+- The FilterBar component has been tested using Jest and React Testing Library(RTL). The test was successfull.
 
 ## Known Issues or Limitations
 
